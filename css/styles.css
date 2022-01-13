@@ -13,6 +13,7 @@
   --bg-color-inactive: #f5f4fa;
   --card-border-color: #eee;
   --header-border-color: #ececec;
+  --gradient-color: rgba(47, 48, 58, 0.4);
 }
 
 /* Utilites */
@@ -141,7 +142,8 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--bg-color-dark);
-  background-image: url('./icon/');
+  background-image: linear-gradient(var(--gradient-color), var(--gradient-color)),
+    url('../images/hero.jpg');
   text-align: center;
 }
 
