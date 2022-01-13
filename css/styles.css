@@ -197,9 +197,6 @@ body {
   width: 70px;
   height: 70px;
 }
-.features .list {
-  display: flex;
-}
 
 .features .item:not(:last-child) {
   margin-right: 30px;
@@ -232,11 +229,11 @@ body {
   background-color: var(--bg-color-inactive);
 }
 
-.team .list {
+.team-list {
   display: flex;
 }
 
-.team .item {
+.team .team-member-item {
   text-align: center;
   background-color: var(--color-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -267,10 +264,38 @@ body {
   line-height: 1.19;
 }
 .team-member-description {
-  /* margin-bottom: 30px; */
+  margin-bottom: 16px;
   color: var(--text-color-main);
   font-size: 16px;
   line-height: 1.19;
+}
+
+.socials-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-member-socials-bg {
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+}
+.team-member-socials-bg:hover,
+.team-member-socials-bg:focus {
+  background-color: var(--color-accent);
+  fill: var(--color-white);
+}
+
+.team-member-socials-svg {
+  width: 20px;
+  height: 20px;
+
+  fill: var(--text-color-main);
 }
 
 /* Buttons */
