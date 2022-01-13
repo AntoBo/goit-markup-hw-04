@@ -38,6 +38,7 @@ img {
 }
 .list {
   list-style: none;
+  fill: var(--text-color-main);
 }
 
 /* Globals */
@@ -119,6 +120,20 @@ body {
 .nav .link:focus,
 .nav .link.current {
   color: var(--color-accent);
+  fill: var(--color-accent);
+}
+
+.contacts-block {
+  outline: 1px dotted red;
+}
+
+.contacts-block .link {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-block-svg {
+  margin-right: 10px;
 }
 
 /* Hero */
@@ -126,6 +141,7 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--bg-color-dark);
+  background-image: url('./icon/');
   text-align: center;
 }
 
