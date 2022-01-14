@@ -149,10 +149,6 @@ body {
   fill: var(--color-accent);
 }
 
-.contacts-block {
-  outline: 1px dotted red;
-}
-
 .contacts-block .link {
   display: flex;
   align-items: center;
@@ -515,9 +511,3 @@ body {
 .portfolio .link {
   display: block;
 }
-
-/*todolist
-
-сотрудники р2+р в див
-
-*/
